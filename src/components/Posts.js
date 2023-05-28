@@ -7,16 +7,17 @@ import Image from "next/image";
 export default function Post() {
   return (
     <div className="flex flex-col">
+      {/* 1 st post  */}
       <div className="flex flex-col rounded my-8 border border-slate-300">
         <Image src={Image1} className="w-full" />
         <div className="py-6 px-5">
           <div className="flex flex-row items-center justify-center">
             <div className="flex flex-col">
               <h3 className="text-xl">✍️ Article</h3>
-              <h1 className="text-3xl font-semibold py-3">
+              <h1 className="text-xl md:text-3xl font-semibold py-3">
                 Lorem ipsum dolar lorem ipsum dolar lorem ipsum dolar{" "}
               </h1>
-              <p className="text-2xl text-slate-400">
+              <p className="text-md md:text-2xl text-slate-400">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quisquam quod, voluptatum, quos
               </p>
@@ -35,7 +36,7 @@ export default function Post() {
 
           <div className="pt-8 flex flex-row items-center justify-between">
             <div className="flex flex-col md:flex-row items-center">
-                <Image className="h-10 w-10 rounded-full" src={Image2} alt="" />
+              <Image className="h-10 w-10 rounded-full" src={Image2} alt="" />
               <span className="font-semibold py-2 px-6">NAME NAME</span>
             </div>
             <div className="flex flex-row">
@@ -57,16 +58,7 @@ export default function Post() {
               </span>
 
               <button className="ml-8">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="rgba(0, 0, 0, 1)"
-                  transform=";msFilter:;"
-                >
-                  <path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 12c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
-                </svg>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAihJREFUSEuVlm1520AQhN9FUEMwg6YIbDMwBBdBXQSxEcRBUAdBzCAKgwRBEwYugu2zdyvdSrpLWv2w7rmT9mNmdiwRQMsP80sQFI0H6XnwG3E1fV/qscurlYyfbsXEtq4W8GFTnkJgq3AHLAXeFH6CXFJ7HjgnmLU/xqAB4xZ47HEKBW2ALu4P4WPVLZDCfgesgCPICXRH7uYZWFcTRLhmEM0zZm0kgNNqifDbFCOoZJBs3eCgoDZWkSdeozz5M3uQB9A9cDt08D8cBIqWwK8EQY26vLcR6ArNYwaMuB8ewDC+d1UsEG5RrEq7/gAH4CXfZQVq2J+Ay7j7AtFW4HE0UPnJM2CJF/7ivQe9pgGccTOHtE/YUkV//gyyE9T0/vkVlN4PWoAtVbHUpIp0vFHT9mgmK0KubYW9F4GvKuxRHiDhbapIxCF0VUNqybDvICTIk+lXpZgO5DvoW2V6G8bXz0EJat5ila8EXnM3ciPoQeGLP3ZCOKJyLZ4TKRmXlt00Vu2TFC1aYKFZliZhI+WKchB41wzjjUvWbOMyebcuiIr6rBIbtDPCyi1hkGmwaIPRpD2wU0W9bnaucWGNypNXevQB2yHcoWn4vvXh53bdJrmINMOonuADs4MRB3XFtYw7zYXZ9dTsXp2TKUTt0hsp5taSO8scVOYgaPmfk9nsGKEm4Xf3qHP8ImhwUPmSqIgt/pVOpdmy6yFMkF3+bKkMTAk6PozJ/gL93vIgqcK99AAAAABJRU5ErkJggg==" />
               </button>
             </div>
           </div>
@@ -80,10 +72,10 @@ export default function Post() {
           <div className="flex flex-row items-center justify-center">
             <div className="flex flex-col">
               <h3 className="text-xl">🔭 Education</h3>
-              <h1 className="text-3xl font-semibold py-3">
+              <h1 className="text-xl md:text-3xl font-semibold py-3">
                 Lorem ipsum dolar lorem ipsum dolar lorem ipsum dolar{" "}
               </h1>
-              <p className="text-2xl text-slate-400">
+              <p className="text-md md:text-2xl text-slate-400">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quisquam quod, voluptatum, quos
               </p>
@@ -125,16 +117,7 @@ export default function Post() {
               </span>
 
               <button className="ml-8">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="rgba(0, 0, 0, 1)"
-                  transform=";msFilter:;"
-                >
-                  <path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 12c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
-                </svg>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAihJREFUSEuVlm1520AQhN9FUEMwg6YIbDMwBBdBXQSxEcRBUAdBzCAKgwRBEwYugu2zdyvdSrpLWv2w7rmT9mNmdiwRQMsP80sQFI0H6XnwG3E1fV/qscurlYyfbsXEtq4W8GFTnkJgq3AHLAXeFH6CXFJ7HjgnmLU/xqAB4xZ47HEKBW2ALu4P4WPVLZDCfgesgCPICXRH7uYZWFcTRLhmEM0zZm0kgNNqifDbFCOoZJBs3eCgoDZWkSdeozz5M3uQB9A9cDt08D8cBIqWwK8EQY26vLcR6ArNYwaMuB8ewDC+d1UsEG5RrEq7/gAH4CXfZQVq2J+Ay7j7AtFW4HE0UPnJM2CJF/7ivQe9pgGccTOHtE/YUkV//gyyE9T0/vkVlN4PWoAtVbHUpIp0vFHT9mgmK0KubYW9F4GvKuxRHiDhbapIxCF0VUNqybDvICTIk+lXpZgO5DvoW2V6G8bXz0EJat5ila8EXnM3ciPoQeGLP3ZCOKJyLZ4TKRmXlt00Vu2TFC1aYKFZliZhI+WKchB41wzjjUvWbOMyebcuiIr6rBIbtDPCyi1hkGmwaIPRpD2wU0W9bnaucWGNypNXevQB2yHcoWn4vvXh53bdJrmINMOonuADs4MRB3XFtYw7zYXZ9dTsXp2TKUTt0hsp5taSO8scVOYgaPmfk9nsGKEm4Xf3qHP8ImhwUPmSqIgt/pVOpdmy6yFMkF3+bKkMTAk6PozJ/gL93vIgqcK99AAAAABJRU5ErkJggg==" />
               </button>
             </div>
           </div>
@@ -149,10 +132,10 @@ export default function Post() {
           <div className="flex flex-row items-center justify-center">
             <div className="flex flex-col">
               <h3 className="text-xl"> 🗓️ MeetUp</h3>
-              <h1 className="text-3xl font-semibold py-3">
+              <h1 className="text-xl md:text-3xl font-semibold py-3">
                 Lorem ipsum dolar lorem ipsum dolar lorem ipsum dolar{" "}
               </h1>
-              <p className="text-2xl text-slate-400">
+              <p className="text-md md:text-2xl text-slate-400">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quisquam quod, voluptatum, quos
               </p>
@@ -193,23 +176,12 @@ export default function Post() {
               </span>
 
               <button className="ml-8">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="rgba(0, 0, 0, 1)"
-                  transform=";msFilter:;"
-                >
-                  <path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 12c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
-                </svg>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAihJREFUSEuVlm1520AQhN9FUEMwg6YIbDMwBBdBXQSxEcRBUAdBzCAKgwRBEwYugu2zdyvdSrpLWv2w7rmT9mNmdiwRQMsP80sQFI0H6XnwG3E1fV/qscurlYyfbsXEtq4W8GFTnkJgq3AHLAXeFH6CXFJ7HjgnmLU/xqAB4xZ47HEKBW2ALu4P4WPVLZDCfgesgCPICXRH7uYZWFcTRLhmEM0zZm0kgNNqifDbFCOoZJBs3eCgoDZWkSdeozz5M3uQB9A9cDt08D8cBIqWwK8EQY26vLcR6ArNYwaMuB8ewDC+d1UsEG5RrEq7/gAH4CXfZQVq2J+Ay7j7AtFW4HE0UPnJM2CJF/7ivQe9pgGccTOHtE/YUkV//gyyE9T0/vkVlN4PWoAtVbHUpIp0vFHT9mgmK0KubYW9F4GvKuxRHiDhbapIxCF0VUNqybDvICTIk+lXpZgO5DvoW2V6G8bXz0EJat5ila8EXnM3ciPoQeGLP3ZCOKJyLZ4TKRmXlt00Vu2TFC1aYKFZliZhI+WKchB41wzjjUvWbOMyebcuiIr6rBIbtDPCyi1hkGmwaIPRpD2wU0W9bnaucWGNypNXevQB2yHcoWn4vvXh53bdJrmINMOonuADs4MRB3XFtYw7zYXZ9dTsXp2TKUTt0hsp5taSO8scVOYgaPmfk9nsGKEm4Xf3qHP8ImhwUPmSqIgt/pVOpdmy6yFMkF3+bKkMTAk6PozJ/gL93vIgqcK99AAAAABJRU5ErkJggg==" />
               </button>
             </div>
           </div>
         </div>
       </div>
-
-      <div>Lorem</div>
     </div>
   );
 }
