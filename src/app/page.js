@@ -18,7 +18,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col p-0">
+    <div className="flex flex-col p-0">
       <div
         className="flex flex-col items-center justify-center w-full bg-center bg-no-repeat home my-0"
         id="home"
@@ -98,6 +98,8 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Join Group Button for mobile screen  */}
 
         <div className="flex flex-row justify-between">
           <Post />

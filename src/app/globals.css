@@ -125,3 +125,10 @@ input[type="search"]:focus {
   }
 
 }
+
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgb(160, 169, 180);
+}

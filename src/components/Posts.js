@@ -34,9 +34,9 @@ export default function Post() {
           </div>
 
           <div className="pt-8 flex flex-row items-center justify-between">
-            <div className="flex flex-row items-center">
-              <Image className="h-10 w-10 rounded-full" src={Image2} alt="" />
-              <span className="font-semibold px-6">NAME NAME</span>
+            <div className="flex flex-col md:flex-row items-center">
+                <Image className="h-10 w-10 rounded-full" src={Image2} alt="" />
+              <span className="font-semibold py-2 px-6">NAME NAME</span>
             </div>
             <div className="flex flex-row">
               <span className="text-slate-400 flex flex-row">
@@ -101,9 +101,9 @@ export default function Post() {
           </div>
 
           <div className="pt-8 flex flex-row items-center justify-between">
-            <div className="flex flex-row items-center">
+            <div className="flex flex-col md:flex-row items-center">
               <Image className="h-10 w-10 rounded-full" src={Image2} alt="" />
-              <span className="font-semibold px-6">NAME NAME</span>
+              <span className="font-semibold py-2 px-6">NAME NAME</span>
             </div>
             <div className="flex flex-row">
               <span className="text-slate-400 flex flex-row">
@@ -169,9 +169,9 @@ export default function Post() {
             </svg>
           </div>
           <div className="pt-8 flex flex-row items-center justify-between">
-            <div className="flex flex-row items-center">
+            <div className="flex flex-col md:flex-row items-center">
               <Image className="h-10 w-10 rounded-full" src={Image3} alt="" />
-              <span className="font-semibold px-6">NAME NAME</span>
+              <span className="font-semibold py-2 px-6">NAME NAME</span>
             </div>
             <div className="flex flex-row">
               <span className="text-slate-400 flex flex-row">
@@ -208,7 +208,6 @@ export default function Post() {
           </div>
         </div>
       </div>
-
 
       <div>Lorem</div>
     </div>
